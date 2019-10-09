@@ -14,6 +14,7 @@
 
 .navWrapper {
   margin-bottom: 2%;
+  background-color: #0E2BA1;
 }
 
 .filterWrapper {
@@ -21,7 +22,7 @@
 }
 
 .headerText {
-  color: #F5A9BC;
+  color: #ECDFE2;
   font-size: 3em;
   margin: 0% 2% 0% 2%;
 }
@@ -41,6 +42,7 @@
 .normalText {
   font-family: Georgia, serif;
   font-size: .75em;
+  color: white
 }
 
 .hoggyText {
@@ -64,7 +66,7 @@ ul {
 
 .subtleText {
   color: #D1D1D1;
-  font-size: .75em; 
+  font-size: .75em;
 }
 
 
@@ -80,7 +82,7 @@ ul {
   float: left;
   margin: 2%;
   padding: 1%;
-  outline: #3B0B0B dotted thick;
+  outline: #C74D86 ridge;
   transition: 0.75s;
   opacity: 1;
 }
@@ -105,10 +107,23 @@ ul {
 .pigTile h3 {
   color: #FBB;
 }
+
 .minPigTile {
-  width: 250px;
-  height: 250px;
-  background-size: cover;
+  display: inline;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  outline: #4D65C7 outset;
+  transition: 0.75s;
+  opacity: 1;
+  animation: fadein 1s linear;
+}
+
+.minPigTile:hover {
+  background-color: gold;
 }
 
 .maxPigTile {
@@ -137,4 +152,9 @@ ul {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
