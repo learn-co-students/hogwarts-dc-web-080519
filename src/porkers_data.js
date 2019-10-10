@@ -1,6 +1,6 @@
 const hogs = [
   {
-    name: 'Mudblood',
+    name: 'Muggleborn',
     specialty: 'Mediocre magic',
     greased: false,
     weight: 2.0,
@@ -21,7 +21,7 @@ const hogs = [
     'highest medal achieved': 'gold'
   },
   {
-    name: 'Piggy smalls',
+    name: 'Piggy Smalls',
     specialty: 'Massivity',
     greased: true,
     weight: 5.1,
