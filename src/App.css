@@ -139,18 +139,13 @@ ul {
   to { transform: rotate(360deg); }
 }
 
-/* .hogcard{
-  position: relative;
-  padding: 30% 0;
-} */
-
 .hoginfo {
   position: absolute;
   top: 50px;
   left: 0;
   width: 100%;
   height: 100%;
-  color: white;
+  color: black;
 	font-size: 20px;
 }
 
@@ -164,5 +159,16 @@ ul {
 }
 
 .semi-transparent {
-  opacity: 25%
+  opacity: 0.2;
 }
+
+.hidden-hog {
+  opacity: 0;
+}
+
+.regret-button {
+  font-size: 10px;
+}
+
+
+
